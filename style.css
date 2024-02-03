@@ -1,1 +1,11 @@
-
+body{
+    background-color: #00101f;
+    color: #e2e8f0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navber a {
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    
+}
