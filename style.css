@@ -9,15 +9,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .navber{
-    width: 80%;
     height: 10vh;
     margin: auto;
-    padding: 15px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: space-between; 
 }
-.navber a {
+.navber a{
     text-decoration: none;
     font-weight: 700 ;
     color: #6c757d;
@@ -31,17 +30,16 @@ body{
 .navber ul li{
     list-style: none;
     display: inline-block;
-    margin: 0  15px;
+    margin: 0  10px;
 }
 .navber ul li a {
     text-transform: uppercase;
 
 }
 .container{
-    /* width: 100%; */
     margin: 0px auto;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 
@@ -50,32 +48,35 @@ body{
 
 }
 .img-top{
-    height: 300px;
-    width: 300px;
+    /* width: 100%;
+    height: auto; */
     border-radius: 50%;
+    width: 100%;
+     max-width: 400px;
+     height: auto;
 
 }
 h1 {
-    font-size: 30px;
+    font-size: 20px;
     color: #dc5a5a;
     text-transform: capitalize;
 }
 h3{
     color:  #dc5a5a;
-    font-size: 20px;
+    font-size: 10px;
 }
 p{
     margin: 0 10px;
     padding: 10px;
 }
 button{
- width: 200px;
+ width: 180px;
  height: 45px;
  text-transform: capitalize;
- font-size: 18px;
+ font-size: 15px;
  font-family:'Montserrat', sans-serif ;
  font-weight: 700;
- padding: 10px;
+ padding: 8px;
  border-radius: 10px;
  border: 3px solid #dc5a5a ;
  background-color: #00101f;
@@ -88,7 +89,7 @@ button:hover{
     color: #e2e8f0 ;
 }
 img{
-    height: 400px;
+    height: 230px;
     max-width: 95%;
     margin: 0 auto;
     display: block;
